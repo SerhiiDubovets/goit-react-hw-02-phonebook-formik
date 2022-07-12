@@ -7,7 +7,6 @@ const ContactList = ({ contacts, onDeleteContact }) => {
   return (
     <BlockContact>
       <List>
-        {' '}
         {contacts.length === 0 ? (
           <Text>Contacts not found...</Text>
         ) : (
